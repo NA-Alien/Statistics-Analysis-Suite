@@ -35,4 +35,7 @@ To run this project locally, ensure you have Python installed, then follow these
 1. Clone the repository to your local machine.
 2. Install the necessary dependencies:
    ```bash
-   pip install -r requirements.txt
+   py -m pip install streamlit pandas matplotlib scipy
+3. Launch the Application:
+   ```bash
+   py -m streamlit run app.py
